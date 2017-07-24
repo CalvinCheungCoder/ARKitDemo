@@ -15,10 +15,10 @@ extension ARSCNView{
         
         let ship = Ship()
         
-        let x = -0.2[0.2]
-        let y = -0.2[0.2]
+        let x = -0.5[0.5]
+        let y = -0.5[0.5]
         
-        ship.position = SCNVector3(x,y,-0.3)
+        ship.position = SCNVector3(x,y,-1)
         
         self.scene.rootNode.addChildNode(ship)
     }
